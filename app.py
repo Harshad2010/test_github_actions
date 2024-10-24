@@ -1,1 +1,1 @@
-print("Check Github Actions Running on App.py")
+print("Running App.py")
