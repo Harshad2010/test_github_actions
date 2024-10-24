@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: '3.8'
 
+      # Run sample githhub actions
+      - name: Run sample Github actions
+        uses: echo "this workflow ran succesfully for this particular action"
+
       # Runs a single command using the runners shell
       - name: Running python script
         run: python app.py
